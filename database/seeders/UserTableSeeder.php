@@ -14,9 +14,9 @@ class UserTableSeeder extends Seeder
     public function run()
     {
          DB::table('users')->insert([
-            'name'=>"Administrator",
-            'email'=>"admin@gmail.com",
-            'password'=>bcrypt('password'),
+            'name' => 'Arif Rizvee',
+            'email' => 'rizvee@gmail.com',
+            'password'=>bcrypt('password'), // password
             'two_factor_enable'=>false,
             'created_at'=>\Carbon\Carbon::now(),
             'updated_at'=>\Carbon\Carbon::now()

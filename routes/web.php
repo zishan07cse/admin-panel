@@ -15,8 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'IndexController@index')->name('home');
-
+Route::get('/', function () {
+  return view('theme/auth/login');
+});
 Auth::routes([
   'register' => false, // Registration Routes...
   'reset' => false, // Password Reset Routes...
