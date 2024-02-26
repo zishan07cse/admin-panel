@@ -3,14 +3,17 @@ This is a simple admin panel made with Laravel, anyone can create a new user, ma
 # How to set up a project in localhost?
 Admin Panel
 -------------
-1. composer update
-2. cp .env.example .env
-3.php artisan key: generate
-4.php artisan migrate
-5.php artisan db: seed
-6.php artisan serve
-user login:
-localhttp://127.0.0.1:8000/login
+- Clone your project
+- Go to the folder application using cd command on your cmd or terminal
+- Run composer install on your cmd or terminal
+- Run npm install or yarn install then run npm run dev or yarn dev
+- cp .env.example .env
+- php artisan key: generate
+- php artisan migrate
+- php artisan db: seed
+- php artisan serve
+  
+Go to http://localhost:8000/
 
 Default login credentials.
 
