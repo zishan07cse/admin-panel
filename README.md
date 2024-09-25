@@ -1,5 +1,5 @@
 # Simple admin panel  
-This is a simple admin panel made with Laravel, anyone can create a new user, manage a user, manage a user role, manage a page, or set a role.
+This is a simple admin panel made with Laravel, anyone can create a new user, manage a user, manage a user role, manage a page or set a role.
 # How to set up a project in localhost?
 Admin Panel
 -------------
